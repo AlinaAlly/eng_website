@@ -1,20 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>English website</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Main page</title>
+    <link rel="stylesheet" href="style.css"> <!-- Если у вас есть файл стилей -->
 </head>
 <body>
     <header>
-        <h1>Welcome to My Website!</h1>
+        <h1>Welcome to my website!</h1>
     </header>
+
     <main>
-        <p> Hi! My name is Alina. I'm currently studying at SUSU. This is a website about programming. Hope you enjoy your stay!
-        </p>
-        <button id="clickMe">Click me!</button>
+        <section>
+            <p>This is a website about programming. I hope you'll enjoy your stay here 🤠</p>
+        </section>
+
+        <section>
+            <button onclick="window.location.href='test.html'">Test: Can you become a programmer?</button>
+            <button onclick="window.location.href='article.html'">Article: What is Computer Programming?</button>
+            <button onclick="window.location.href='about.html'">About author</button>
+        </section>
     </main>
-    <script src="script.js"></script>
+
+    <footer>
+        <p>&copy; This site is hosted on GitHub Pages.</p>
+    </footer>
 </body>
 </html>
